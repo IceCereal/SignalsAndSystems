@@ -1,4 +1,4 @@
-t = linspace(-1,1,100);
+t = linspace(-1,20,100);
 x1 = @(t) 1.*exp(3.*t).*(t>=0);
 subplot(2,2,1)
 plot(x1(t))
